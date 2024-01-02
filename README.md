@@ -1,6 +1,8 @@
 # MViT-LD
 Multi-scale Vision Transformer with Level-wise Decoding for Infrared Small Target Detection
 
+We have submited our paper to "IEEE Trans. on Geoscience and Remote Sensing (TGRS)".
+
 
 ![frame](/readme/frame.png)
 
