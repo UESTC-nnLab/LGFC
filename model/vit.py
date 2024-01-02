@@ -78,7 +78,7 @@ class TransformerEncoderBlock(nn.Module):
         x = self.layer_norm2(x)
         return x
         
-        # _x = self.gattention(x,self.imgdim,self.imgdim)
+        # _x = self.gaa(x,self.imgdim,self.imgdim)
         # _x = self.dropout(_x)
         # x = x + _x
         # x = self.layer_norm1(x)
@@ -87,7 +87,7 @@ class TransformerEncoderBlock(nn.Module):
         # x = x + _x
         # x = self.layer_norm2(x)
 
-        # x2 = self.cattention(x)
+        # x2 = self.lwa(x)
         # x2 = self.dropout(x2)
         # x1 = x+x2
         # x = self.layer_norm1(x1)
