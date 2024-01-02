@@ -3,6 +3,8 @@ Multi-scale Vision Transformer with Level-wise Decoding for Infrared Small Targe
 
 We have submited our paper to "IEEE Trans. on Geoscience and Remote Sensing (TGRS)".
 
+Currently, it is still in the process of refinement. After the formal publication of the paper, the code will be further improved.
+
 
 ![frame](/readme/frame.png)
 
