@@ -251,7 +251,7 @@ class WinAttention(nn.Module):
     def __init__(self, configs, dim):
         super(WinAttention, self).__init__()
         self.window_size = configs["win_size"]
-        self.attention = Attention(dim, configs)
+        self.attention = GAA(dim, configs)
     def forward(self, x):
         b, n, c = x.shape
         h, w = int(np.sqrt(n)), int(np.sqrt(n))
