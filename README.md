@@ -4,8 +4,7 @@ Multi-scale Vision Transformer with Level-wise Decoding for Infrared Small Targe
 
 Currently, it is still in the process of refinement. After the formal publication of the paper, the code will be further improved.
 
-
-![frame](/readme/frame.png)
+![frame](https://github.com/user-attachments/assets/33912af4-9918-4920-8d42-b8b5c2eb02c7)
 
 ## Introduction
 
@@ -26,8 +25,7 @@ Due to low signal-to-noise ratio, weak vision contrast and small size, infrared 
 - Tested on Ubuntu 20.04.6, with CUDA 12.0, and 1x NVIDIA 3090(24 GB)
 
 ## ROC curves
-
-![nuaa](/readme/ROC_NUAA.svg)![irst](/readme/ROC_IRSTD.svg)
+![roc](https://github.com/user-attachments/assets/f93a5940-12ad-495d-9786-ccad58e3642c)
 
 ## Contact
 
