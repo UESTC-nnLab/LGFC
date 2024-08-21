@@ -1,10 +1,10 @@
-# MViT-LD
+# LGFC
 
 Multi-scale Vision Transformer with Level-wise Decoding for Infrared Small Target Detection
 
 Currently, it is still in the process of refinement. After the formal publication of the paper, the code will be further improved.
+![frame](https://github.com/user-attachments/assets/475b242e-6300-4ebd-9315-5d6364ce760d)
 
-![frame](https://github.com/user-attachments/assets/33912af4-9918-4920-8d42-b8b5c2eb02c7)
 
 ## Introduction
 
