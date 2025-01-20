@@ -8,7 +8,7 @@ def SoftIoULoss(pred, target):
         # Old One
         pred = torch.sigmoid(pred)
         smooth = 1
-
+ 
         # print("pred.shape: ", pred.shape)
         # print("target.shape: ", target.shape)
 

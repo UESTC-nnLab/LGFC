@@ -11,7 +11,7 @@ class SegmentationMetricTPFNFP(object):
     """
 
     def __init__(self, nclass):
-        self.nclass = nclass
+        self.nclass = nclass 
         self.lock = threading.Lock()
         self.reset()
 

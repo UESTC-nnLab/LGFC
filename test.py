@@ -8,7 +8,7 @@ from util.load_param_data import  load_dataset, load_param
 from util.metric import *
 from model.net import  *
 ######获取模型中间特征的钩子，便于生成heatmap
-# layer_outputs = []
+# layer_outputs = [] 
 # def for_hook(module, input, output):
 #             layer_outputs.append(output)
 # def register_hook(model, func, hook_layers):

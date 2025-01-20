@@ -9,7 +9,7 @@ class CFR(nn.Module):
         self.relu1 = nn.ReLU(inplace=True)
 
         self.pool1 = nn.MaxPool2d(2,2,ceil_mode=True)
-
+ 
         self.conv2 = nn.Conv2d(64,64,3,padding=1)
         self.bn2 = nn.BatchNorm2d(64)
         self.relu2 = nn.ReLU(inplace=True)

@@ -8,7 +8,7 @@ import math
 class MultiHeadAttention(nn.Module):
     def __init__(self, embedding_dim, head_num):
         super().__init__()
-
+ 
         self.head_num = head_num 
         self.dk = (embedding_dim // head_num) ** 1 / 2 
 

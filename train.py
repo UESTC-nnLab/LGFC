@@ -10,7 +10,7 @@ from model.loss import *
 from util.load_param_data import  load_dataset, load_param
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
-from model.net import *
+from model.net import * 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 def seed_pytorch(seed=3407):

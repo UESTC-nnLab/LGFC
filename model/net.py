@@ -8,7 +8,7 @@ from model.CFR import *
 
 class MViTLD(nn.Module):
     def __init__(self, num_classes, input_channels, block, num_blocks, nb_filter):
-        super(MViTLD, self).__init__()
+        super(MViTLD, self).__init__() 
         self.stem = nn.Sequential(
             nn.BatchNorm2d(3,affine=False),
             nn.Conv2d(3, 3, kernel_size=3, stride=1, padding=1, bias=False),

@@ -10,7 +10,7 @@ class Cross_Feature_Interaction(nn.Module):
         self.out_channels = out_channels
         self.bottleneck_channels = int(out_channels // r)
 
-        self.cbr1 = nn.Sequential(
+        self.cbr1 = nn.Sequential( 
             nn.Conv2d(self.high_channels, self.out_channels, 1, 1, 0),
             nn.BatchNorm2d(out_channels),
             nn.ReLU(True),

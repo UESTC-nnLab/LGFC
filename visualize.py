@@ -11,7 +11,7 @@ from model.net import  *
 class Trainer(object):
     def __init__(self, args):
 
-        # Initial
+        # Initial 
         self.args  = args
         self.save_prefix = '_'.join([args.model, args.dataset])
         nb_filter, num_blocks = load_param(args.channel_size, args.backbone)

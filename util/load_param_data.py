@@ -9,7 +9,7 @@ def load_dataset (root, dataset, split_method):
             train_img_ids.append(line.split('\n')[0])
             line = f.readline()
         f.close()
-    with open(test_txt, "r") as f:
+    with open(test_txt, "r") as f: 
         line = f.readline()
         while line:
             val_img_ids.append(line.split('\n')[0])
